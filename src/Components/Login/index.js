@@ -6,6 +6,8 @@ function Login() {
 
 const StyledLogin = styled.main`
   width: 100%;
-  height: 400vh;
+  height: 10vh;
+  
+
 `
 export default Login

@@ -1,11 +1,15 @@
 import styled from "styled-components"
-import Login from "./Components/Login"
+// import Login from "./Components/Login"
+import Prizes from "./Components/Prizes"
+import Sponsors from "./Components/Sponsors"
 
 //? Main App Component
 function App() {
   return (
     <StyledApp>
-      <Login />
+      {/* <Login /> */}
+      <Prizes />
+      <Sponsors />
     </StyledApp>
   )
 }
