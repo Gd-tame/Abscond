@@ -71,13 +71,11 @@ const StyledPrizes = styled.div
 
 
     }
-picture{
+    picture{
     position : absolute;
     top:20%;
     left:0;
     width : 18%;
-   
-
 
     img{
         width:100%;
@@ -86,9 +84,6 @@ picture{
     }
 
 }
-
-
-   
     h3{
         font-weight : 500;
     }
@@ -102,19 +97,19 @@ picture{
         align-items:center;
     
         .head{
-width:30%;
-height:17rem;
+        width:30%;
+        height:17rem;
        
             background-color : #F3C4F4;
             text-align : center;
           
             border-radius : 10px;
             font-size : 2rem;
-
-display:flex;
-justify-content:space-evenly;
-align-items:center;
-flex-direction:column;
+            
+            display:flex;
+            justify-content:space-evenly;
+            align-items:center;
+            flex-direction:column;
             .money{
              width:80%;
              height:50%;
@@ -124,15 +119,58 @@ flex-direction:column;
                 background-color : #F8A9F9;
                 display : flex;
                 justify-content : center;
-             align-items:center;
+                align-items:center;
                 border-radius : 10px;
                 font-size : 1.75rem;
+            }
+        }
 
-                
+    }
+    @media only screen and (max-width : 1200px){
+        h2{
+            font-size : 3.5rem;
+        }
+        .color1{
+            width : 350px;
+            height : 350px;
+        }
+        picture{
+            width : 17%;
+        }
+        h3{
+            font-size : 1.75rem;
+        }
+        .prize{
+            width : 60%;
+            margin-top : 5rem;
+            .head{
+                height : 13rem;
+            }
+        }
 
+    }
+    @media only screen and (max-width : 992px){
+        picture{
+            width : 19%;
+            top : 30%;
+        }
+        h3{
+            font-size : 1.5rem;
+        }
+        .color1{
+            width : 300px;
+            height : 300px;
+            top : 60%;
+        }
+        .prize{
+            .head{
+                .money{
+                font-size : 1.5rem;
+                }
             }
         }
     }
+    
 `
 export default Prizes
 
