@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import bgimg from './media/background.png';
+import Navbar from "./components/navbar.js";
+import Admin from "./components/page.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledApp>
+      <Navbar/>
+      <Admin />
+      <picture>
+        <img src = {bgimg} alt = "bgimg"></img>
+      </picture>
+    </StyledApp>
   );
 }
+const StyledApp = styled.div
+`
+
+height : 100vh;
+width : 100%;
+position : relative;
+picture{
+  position : absolute;
+  width : 100%;
+  height : 100%;
+  img{
+    width : 100%;
+    height : 100%;
+  }
+}
+`
 
 export default App;
