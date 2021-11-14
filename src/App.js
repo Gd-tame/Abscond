@@ -1,19 +1,19 @@
 import styled from "styled-components"
- import Navbar from "./Components/Navbar"
-import Prizes from "./Components/Prizes"
+//  import Navbar from "./Components/Navbar"
+// import Prizes from "./Components/Prizes"
 import Sponsors from "./Components/Sponsors"
-import Social from "./Components/Social"
-import Home from "./Components/Home"
-
+// import Social from "./Components/Social"
+// import Home from "./Components/Home"
+// import Team from "./Components/TeamFormation"
 //? Main App Component
 function App() {
   return (
     <StyledApp>
-      <Navbar />
+      {/* <Navbar />
       <Home />
-      <Prizes />
+      <Prizes /> */}
       <Sponsors />
-      <Social />
+      {/* <Social /> */}
     </StyledApp>
   )
 }
@@ -21,7 +21,7 @@ function App() {
 const StyledApp = styled.div`
   width: 100%;
   background: linear-gradient(to bottom, #9c99ef, #fac7d5);
-  height : 400vh;
+  height : 100vh;
   /* font-family: 'Poppins'; */
 
 

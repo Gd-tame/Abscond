@@ -9,7 +9,7 @@ function Prizes(){
             <h2>Prizes</h2>
         </div>
         <div className="color1">
-
+{/* hello */}
         </div>
         <picture>
             <source srcSet={anime2} alt="h" />
@@ -105,7 +105,7 @@ const StyledPrizes = styled.div
           
             border-radius : 10px;
             font-size : 2rem;
-            
+
             display:flex;
             justify-content:space-evenly;
             align-items:center;

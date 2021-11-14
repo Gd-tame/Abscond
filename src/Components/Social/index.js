@@ -32,7 +32,7 @@ function Social(){
             </div>
         </div>
         <div className="icons">
-            <a href="https://www.instagram.com/iiche.tiet/"><div className="group"><BsInstagram className = "Instagram"></BsInstagram>
+            <a href="./Components/TeamFormation/index.js"><div className="group"><BsInstagram className = "Instagram"></BsInstagram>
             </div></a>
             <a href="https://twitter.com/IIChE_TIET"><div className="group"><BsTwitter className = "Twitter"></BsTwitter></div></a>
             <a href="https://www.facebook.com/iiche.tiet"><div className="group"><BsFacebook className = "Facebook"></BsFacebook></div></a>
@@ -61,7 +61,7 @@ font-family : 'Poppins';
     }
     h2{
         font-weight : 500;
-        font-size : 5rem;
+        font-size : clamp(2rem, 5vw, 5rem);
     }
     .content{
         margin-left : 4rem;
